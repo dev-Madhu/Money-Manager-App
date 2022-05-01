@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+.card-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .card-box-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.income-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  width: 100%;
+  border: 1px solid #84cc16;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .income-box {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+
+.balance-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  width: 100%;
+  border: 1px solid #06b6d4;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.expenses-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  width: 100%;
+  min-width: 200px;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .balance-box {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .expenses-box {
+    width: 30%;
+    margin-right: 0px;
+  }
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+  margin: 24px;
+}
+
+.your-balance {
+  font-size: 14px;
+  color: #475569;
+}
+.rupees {
+  font-size: 20px;
+  font-weight: 700;
+  color: #475569;
+}
